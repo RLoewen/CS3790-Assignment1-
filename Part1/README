@@ -1,0 +1,4 @@
+This is a simple scheduler prototype that creates 3 child processes that each print an integer, ie. child 1 prints 1, child 2 prints 2 etc.
+
+o run the program simply extract the tar file, go to that directory, run ./sched
+ 

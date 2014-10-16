@@ -1,0 +1,15 @@
+CS3790_Assignment1_Part2 Scheduler
+Ruben Loewen 5010926
+
+
+This program is a simple scheduler. It will wait for a user to enter the name of a program to run. Once a program is started it will continue until scheduler is terminated or until another program's "turn" comes up in which case that program's code is executed. The programs that can be run with this scheduler must be within the run folder that is located in this directory. Currently progA, progB, progC are saved in run for testing purposes.
+
+To use the scheduler change your working directory to this folder then run using ./sched
+
+Once ./sched is running type:
+progA <enter>
+progB <enter> 
+progC <enter>
+
+Due to the primitive nature of this version the scheduler will begin running progA once <enter> is pressed, simply type progB/progC and press <enter> and scheduler will begin running them.
+Initially the scheduler will printa mix of "A", "B", and "C" but after as each program enters it's wait period output will procede from "A" to "B" to "C" 

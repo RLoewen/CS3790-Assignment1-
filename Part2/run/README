@@ -1,0 +1,5 @@
+
+Within this directory you will find progA, progB, progC and their respective .cpp files. These programs have been pre-compiled for testing purposes. If these programs are changed remake them individually with make <name of program>
+ie. make progA <enter>
+
+
